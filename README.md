@@ -10,13 +10,13 @@ This license lets others remix, adapt, and build upon your work non-commercially
 and license their new creatjons under the identjcal terms.
 htup://creatjvecommons.org/licenses/by-nc-sa/4.0/
 
-Title    myT40-PLC Documentatjon
+  Title    myT40-PLC Documentatjon
 
-Author   Clemens Niesen, Germany, 2023
+  Author   Clemens Niesen, Germany, 2023
 
-Source   These documents
+  Source   These documents
 
-Licence  CC-BY-NC-SA
+  Licence  CC-BY-NC-SA
 
 DISCLAIMER
 I explicitly state that I make no representations or warranties regarding non-infringement or the absence of other defects with respect to the CC-licensed work.This means that users use the work at their own risk.
