@@ -11,8 +11,11 @@ and license their new creatjons under the identjcal terms.
 htup://creatjvecommons.org/licenses/by-nc-sa/4.0/
 
 Title    myT40-PLC Documentatjon
+
 Author   Clemens Niesen, Germany, 2023
+
 Source   These documents
+
 Licence  CC-BY-NC-SA
 
 DISCLAIMER
