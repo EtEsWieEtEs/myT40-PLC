@@ -3,8 +3,7 @@ Hardware for PLC based on Teensy 4.0, covering all my needs I have to be able to
 
 "V3_M31_Composed" shows the version-V3-prototype. Attended documents describe the final version V4.
 
-Doc and Parts for final version comming soon...
-For Pictures of real build of final version it needs some time more.
+For Pictures of real build of final version it needs some time more, I have to build and test them first.-)
 
 This work is licensed under the Creatjve Commons Atuributjon-NonCommercial-ShareAlike 4.0 Internatjonal
 License. To view a copy of this license, visit htup://creatjvecommons.org/licenses/by-nc-sa/4.0/ or send a
