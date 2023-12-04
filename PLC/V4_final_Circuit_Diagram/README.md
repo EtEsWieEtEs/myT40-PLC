@@ -13,9 +13,7 @@ Keine Pegelkonverter. Kein Platz.
 Möglicherweise falsche Variante für OR-Gatter : U49 ist CMOS muss aber TTL werden.
 U49 TTL-Variante , weil Input-V-High minimum 2V sein muss, die werden durch 3V3-Logik erreicht. Die CMOS-Version 74AHC1G32 erwartet jedoch 3,8V für High.
 Minimale Ub für OR-Gate ist mit 4,5V noch kleiner als die Uth von U48 mit 4,63V (ADM-803L)
-Daher sollte ein 74AHCT1G32 verwendet werden.
-https://www.mouser.de/ProductDetail/Texas-Instruments/SN74AHCT1G32DCKT?qs=zhgwDAIOVxtd7%252BudZUNBIA%3D%3D  (Auslaufmodell)
-https://www.mouser.de/ProductDetail/Nexperia/74HCT1G32GW125?qs=P62ublwmbi9uVFb7WoNXSA%3D%3D SOT-353	
+Vermutung: Es sollte ein 74AHCT1G32 verwendet werden.
 
 
 Transienten in Versorgungsspannung von NE555 bei Schalten möglich: Daher Parallel (auf) C75 100nF einen Tantal-Elko 10V 10µ auflöten.
@@ -68,5 +66,6 @@ Nachmessen
 			C96 100n filtert HF aus, zusammen mit Br ist Tiefpass möglich, wenn statt 0 Ohm ein Widerstand bis 100 Ohme eingesetzt wird.
 			C97 100n Eingangskondensator für U13, Spannungsregler 3V3
 
+U49 verhält sich genau so, wie er soll. Es kann daher die CMOS-Version weiterhin verwendet werden.
 
 "V2.6 M37" - Schaltplan und PCB Neu
