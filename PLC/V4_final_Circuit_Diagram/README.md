@@ -18,10 +18,10 @@ Vermutung: Es sollte ein 74AHCT1G32 verwendet werden.
 
 Transienten in Versorgungsspannung von NE555 bei Schalten möglich: Daher Parallel (auf) C75 100nF einen Tantal-Elko 10V 10µ auflöten.
 SMD1206 passt zur Tantalgröße 
-https://www.reichelt.de/smd-tantal-10-f-10v-105-c-t520-10u-10-p206542.html?&trstct=pol_0&nbc=1
 
 
-Nachmessen
+
+V3 Nachgemessen und angepasst.
 
 
 Überprüfung ergab folgende Änderungen:
@@ -67,5 +67,6 @@ Nachmessen
 			C97 100n Eingangskondensator für U13, Spannungsregler 3V3
 
 U49 verhält sich genau so, wie er soll. Es kann daher die CMOS-Version weiterhin verwendet werden.
+C75 kann ebenfalls unverändert bleiben.
 
 "V2.6 M37" - Schaltplan und PCB Neu
