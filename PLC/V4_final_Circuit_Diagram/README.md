@@ -69,4 +69,4 @@ Nachmessen
 			C97 100n Eingangskondensator für U13, Spannungsregler 3V3
 
 
-"V2.6 M37" - Schaltplan und PCB werden nachgereicht.
+"V2.6 M37" - Schaltplan und PCB Neu
