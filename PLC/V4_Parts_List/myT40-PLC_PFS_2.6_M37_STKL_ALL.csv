@@ -117,7 +117,6 @@ J44 J45 J27 J58 J60 J65 ;6;Lötauge;mylib:Lötauge-Junction-2x2-1.4;~;nichts ben
 J52 J35 J32 J39 J38 ;5;Lötauge;mylib:Lötauge-Junction-3.5x2.5-1.6;~;nichts benötigt;Lötauge
 J28 ;1;GND_CAN opt an J33;mylib:Lötauge-Junction-2x1.5;~;nichts benötigt;Lötauge
 J33 ;1;opt. GND_XXX;mylib:Lötauge-Junction-2x1.5;~;nichts benötigt;Lötauge
-J34 J36 ;2;Brücke;mylib:Lötauge-Junction_1x1.5-0.8;~;nichts benötigt;Lötauge
 J37 ;1;GND_RS opt an J33;mylib:Lötauge-Junction-2x1.5;~;nichts benötigt;Lötauge
 H31 H32 ;2;LED-Licht-Leiter_8x3mm_P5.08;mylib:MEN-LED-Lichtleiter_8x3mm_P5.08_5v8;;https://www.reichelt.de/lichtleiter-1x10-fach-3-mm-planar-gerade-men-12721020-p232146.html?search=MEN+12721020;LED-Licht-Leiter_8x3mm_P5.08: MEN 12721020
 PE-GehäuseAnschluss OP+UP;2;VT FS PW 6,35;VT FS-PW-6,35 Flachstecker für Printmontage, Breite 6,35mm;;https://www.reichelt.de/flachstecker-fuer-printmontage-breite-6-35mm-vt-fs-pw-6-35-p231355.html?&trstct=pos_0&nbc=1;
