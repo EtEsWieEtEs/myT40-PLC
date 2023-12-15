@@ -69,8 +69,13 @@ V3 Nachgemessen und angepasst.
 U49 verhält sich genau so, wie er soll. Es kann daher die CMOS-Version weiterhin verwendet werden.
 C75 kann ebenfalls unverändert bleiben.
 
-2023-12-06 UP
-			Die Brücke auf der UP für die ansteuerung von Q2 wurde überflüssig, Lötpads sind entfernt.
-			Anpassung in der Doku später.
+2023-12-06: UP
+			Ansteuerung Q2 über J34 und J35 mit Brücke wieder entfallen. UP Potentiale umgelegt.
+2023-12-15: OP
+			D1-D16 mit Cs verschoben
+			R163/R165 verlegt
+			Abstände 0V Byte1 zu PE vergrößert
+			
+			OP PCB-Variante mit 4 Layern , um capazitiv eingekoppelten Signalen einen Rückweg zu ermöglichen.
 
 "V2.6 M37" - Schaltplan und PCB Neu
