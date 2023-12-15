@@ -1,16 +1,18 @@
 # Errata
+None
 
 M37 published
 
 20231215: OP edited routing for 2-Layers PCB
 
-Ongoing: 
-4-Layer  for OP, providing inductive return paths for signal to related ground.
+Additionally for better signals and higher frequencies:
+
+4-Layer PCB for OP , providing inductive return paths for signals to related ground on additional layers.
 See www  for "Power Plane and Ground Planes: Should You Use Your PCB Power Plane as a Return Path?"
 
 My 4 layers for OP
 	TOP: signal
-	In1: ground
-	In2: ground + Power
+	In1: grounds
+	In2: grounds + Power
 	BOT: signal
 	
