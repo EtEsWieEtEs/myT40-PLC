@@ -12,11 +12,11 @@ See www  for "Power Plane and Ground Planes: Should You Use Your PCB Power Plane
 
 My 4 layers for OP
 
-	TOP: signal
+	TOP: signal + PE
 	
-	In1: grounds
+	In1: different ground
 	
-	In2: grounds + Power
+	In2: different ground + some power
 	
-	BOT: signal
+	BOT: signal + PE 
 
