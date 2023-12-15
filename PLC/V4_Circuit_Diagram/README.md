@@ -27,14 +27,16 @@ V3 Nachgemessen und angepasst.
 Überprüfung ergab folgende Änderungen:
 
 2023-11-17	M37 Rev.2.6 OP
+
 			C51 statt 100nF nun Tantal 4µ7 16V, für sauberere Spannung 5V-CPU-final
+
 2023-11-23	M37 Rev.2.6 OP
+
 			C73 100nF neue Baugröße SMD 0603
 			C75 100nF neue Baugröße SMD 0603
 			C95 10µF 10V Tantal neuer Kondensator an NE555D, soll Transienten bei Schaltvorgängen reduzieren 
 			C76, U50, R133 verschoben
 			GNDD Verlauf optimiert
-
 			Drei Merkwürdigkeiten gab es, die darauf schließen ließen, dass der Kaltstart nur funktioniert, solange alle I/O ordentlich parametriert sind.
 			1) Das wieder anlaufende Programm erzeugt in der Setup-Routine einen RESET. Wenn SW_MODE_2=LOW ist, dann erfolgt ein erneuter Kaltstart, 
 			   solange bis SW_MODE_=HIGH wird. Das ist soweit normal.
@@ -65,17 +67,19 @@ V3 Nachgemessen und angepasst.
 			R170 10k der obligatorische Gate-Source-Widerstand.
 			C96 100n filtert HF aus, zusammen mit Br ist Tiefpass möglich, wenn statt 0 Ohm ein Widerstand bis 100 Ohme eingesetzt wird.
 			C97 100n Eingangskondensator für U13, Spannungsregler 3V3
-
+			
 U49 verhält sich genau so, wie er soll. Es kann daher die CMOS-Version weiterhin verwendet werden.
 C75 kann ebenfalls unverändert bleiben.
 
 2023-12-06: UP
+
 			Ansteuerung Q2 über J34 und J35 mit Brücke wieder entfallen. UP Potentiale umgelegt.
+
 2023-12-15: OP
-			D1-D16 mit Cs verschoben
+
+			D1-D16 mit zugehörigen C etwas verschoben
 			R163/R165 verlegt
-			Abstände 0V Byte1 zu PE vergrößert
-			
+			Abstände 0V von Byte-1 zu PE vergrößert
 			OP PCB-Variante mit 4 Layern , um capazitiv eingekoppelten Signalen einen Rückweg zu ermöglichen.
 
 "V2.6 M37" - Schaltplan und PCB Neu

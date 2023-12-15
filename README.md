@@ -1,9 +1,12 @@
 # myT40-PLC
 Hardware for PLC based on Teensy 4.0, covering all my needs I have to be able to replace my 25 years old PS4-141-MM1 and PS4-341-MM1 from Klöcker Moeller, reusing the original case of model PS4-141-MM1.
 
+For lower frequencies and lower budget, standard PCB has 2 layers. 
+For better return paths of capacitively coupled signals to related ground on additional layers I created a 4-layers version for Upper PCB "OP".
+
 "V2_M16_Composed" shows an older version-V2-prototype. Attended documents describe the final version V4.
 
-For Pictures of real build of final version it needs some time more, I have to build and test them first.-)
+For Pictures of real build of final version V4 it needs some time more, I have to build and test them first.-)
 
 This work is licensed under the Creatjve Commons Atuributjon-NonCommercial-ShareAlike 4.0 Internatjonal
 License. To view a copy of this license, visit htup://creatjvecommons.org/licenses/by-nc-sa/4.0/ or send a
