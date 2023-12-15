@@ -7,7 +7,7 @@ M37 published
 
 Additionally for better signals and higher frequencies:
 
-4-Layer PCB for OP , providing inductive return paths for signals to related ground on additional layers.
+4-Layer PCB for OP provides return paths for capacitively coupled signals to related ground on additional layers.
 See www  for "Power Plane and Ground Planes: Should You Use Your PCB Power Plane as a Return Path?"
 
 My 4 layers for OP
