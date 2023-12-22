@@ -80,6 +80,15 @@ C75 kann ebenfalls unverändert bleiben.
 			D1-D16 mit zugehörigen C etwas verschoben
 			R163/R165 verlegt
 			Abstände 0V von Byte-1 zu PE vergrößert
-			OP PCB-Variante mit 4 Layern , um capazitiv eingekoppelten Signalen einen Rückweg zu ermöglichen.
+			OP PCB-Variante mit 4 Layern , um capazitiv eingekoppelten Signalen einen Rückweg zu ermöglichen. UP weiterhin 2 Layer
 
-"V2.6 M37" - Schaltplan und PCB Neu
+2023-12-22	OP+UP
+
+			U40 verlegt auf UP, neuer C99 100nF an RESET-Leitung bei Extension-Slot (Optional)
+			R50 RESET-PullUp auf UP neben U40 + neuem 100nF C98
+			Q2 und R170 jetzt hinter U13 (3,3V Spg.Erzeugung)
+			Potentiale 5V_CPU, 3V3_INT durchgängig benannt auf UP+OP
+			Da Q2 von NE555 mit ca 5V zur Abschaltung angesteuert wird, begrenzt D50 auf maximal 3,6V am Ausgang von U13
+			Mit dieser Änderung kann die CPU nun aktiv einen Kaltstart in Eigenregie veranlassen und kann sich selbst den Saft abdrehen, 
+			wenn der Interrupt-Eingang für RESET am Teensy-Pin-6(4) als Ausgang mit OpenCollector auf Low gezogen wird.
+			Da RESET dauerhaft mit PullUp auf 3,3V gezogen werden muss, ist R50 auf die UP umgezogen. U40 erreicht jetzt auf der UP RESET und 3,3V aus U13.
