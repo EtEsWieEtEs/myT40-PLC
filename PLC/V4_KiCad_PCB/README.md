@@ -1,12 +1,13 @@
 # Errata
 None
-M37 published
-	
-20231215: OP edited routing for 2-Layers PCB
-	
-Additionally for better signals and higher frequencies:
+M38 published
+
+Two versions provided:
+- 2-Layer	PCB for OP (upper board)
+- 4-Layer PCB for OP (upper board)
 	
 4-Layer PCB for OP provides return paths for capacitively coupled signals to related ground on additional layers.
+UP (second/lower board) remains on 2-Layer PCB for both variants of OP.
 	
 See www  for "Power Plane and Ground Planes: Should You Use Your PCB Power Plane as a Return Path?"
 

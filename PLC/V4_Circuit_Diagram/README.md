@@ -62,6 +62,7 @@ V3 Nachgemessen und angepasst.
 			
 			Neue Bauteile:
 			R169 (0..100 Ohm) koppelt NE555-Ausgang Q (3V3EN.Q2.UP, bzw. Potential COLDSTART_3V3INT) parallel zu Q1 auf OP (5V_CPU) aus und legt ihn an J4-Pin-8 für UP an.
+
 		M37 UP
 			Q2 (IRLML-2244) erhhält das NE555-Ausgangssignal über J19-Pin-8 und eine Brücke Br (J34/J36).
 			R170 10k der obligatorische Gate-Source-Widerstand.
@@ -92,3 +93,11 @@ C75 kann ebenfalls unverändert bleiben.
 			Mit dieser Änderung kann die CPU nun aktiv einen Kaltstart in Eigenregie veranlassen und kann sich selbst den Saft abdrehen, 
 			wenn der Interrupt-Eingang für RESET am Teensy-Pin-6(4) als Ausgang mit OpenCollector auf Low gezogen wird.
 			Da RESET dauerhaft mit PullUp auf 3,3V gezogen werden muss, ist R50 auf die UP umgezogen. U40 erreicht jetzt auf der UP RESET und 3,3V aus U13.
+
+2024-01-17	M38 Rev.2.6 OP+UP  (Veröffentlichung als V4 PFS 4-Layer)
+			M38 Rev.2.6 OP+UP  (Veröffentlichung als V4 PFS )
+			Neu U51:  Ugs-Pegelwandler 5V auf 3,3V für Q2 Gate (Q2 zur Abschaltung 3,3V Interfaces) (Wahrscheinlich nicht nötig, denn : -12V <= Ugs <= 12V)
+			Es entfällt damit auch D50 (ZenerD 3,6V SOT23).
+			Neu R501: R50 als einziger PullUp für RESET auf UP für CPU auf OP über Steckverbindung erschien mir zu unsicher, 
+			daher ein zusätzlicher PullUp R501 auf OP neben Extention-Slot
+2024-02-29	Beschriftungskorrektur FFC 4-Layer, Versionsdateum auf OP-TOP von 2023-01-17 auf 2024-01-17
