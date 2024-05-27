@@ -1,6 +1,6 @@
 # Errata
 None
-M38 published
+M40 published
 
 Two versions provided:
 - 2-Layer	PCB for OP (upper board)

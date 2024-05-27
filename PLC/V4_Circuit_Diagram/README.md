@@ -101,3 +101,15 @@ C75 kann ebenfalls unverändert bleiben.
 			Neu R501: R50 als einziger PullUp für RESET auf UP für CPU auf OP über Steckverbindung erschien mir zu unsicher, 
 			daher ein zusätzlicher PullUp R501 auf OP neben Extention-Slot
 2024-02-29	Beschriftungskorrektur FFC 4-Layer, Versionsdateum auf OP-TOP von 2023-01-17 auf 2024-01-17
+
+2024-05-27	M40 Rev.2.8 OP+UP Korrekturen V4 zum Kaltstart: im ausgeschalteten Zustand kein Start möglich
+			- UP: U51 Verpolung von Ub an Pin-3 und Pin-5: Ist= Pin-5:GNDD 0V, Pin-3:Vcc 5V, Soll: Pin-5:Vcc 5V, Pin-3:GNDD, 2 Platinenunterbrechungen und zwei Brücken
+			  Man sollte Einzelgatter nicht einfach drehen, und erwarten, dass die Spannungsversorgungsanschlüsse noch die gleiche Orientierung haben...
+			- OP: Spannungsteiler R126 und R128 arbeiten nicht im Falle des Systemstarts. Off-Widerstand ist 4080 Ohm von Teensy-Pin-3 (SW_MODE_2)
+			  -> R126 10k ersetzt durch 2k7 SMD 0805  (OP)
+			  -> R128 16k ersetzt durch Zener-Diode ZF 3,0 Baugröße SOD80(minimelf) ((BZY55B3V0: SMD 0805 zu teuer, wenn man sie als einzige bei mouser bestellt))
+			  Damit ist die UinHigh am ODER-Gatter auch größer als 2,1V
+			- RESET ähnlich: RESET=High wird nicht erzeugt, wenn Steuerung startet. Grund: R501||R50=4k76 und Innenwiderstand µC am Teensy40-Pin-4 beträgt 1,341V bei 3,3V Ub PullUp ca. 3258 Ohm. 
+			  Damit ist UresetHigh=1,34V zu klein für ODER-Gatter (UinHighMin=2,1V), NE555 wird daher nicht getriggert.
+			  -> R501 OP) entfällt , da PullUp zu 3V3_INTERFACE , abgeschaltet durch Q2, daher unsinning
+			  -> R50  10k (UP) ersetzt durch 1k SMD-0805 , PullUp zu 3V3, erzeugt ein UinHigh am ODER-Gatter von 2,5...2,6V
