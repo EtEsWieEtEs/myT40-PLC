@@ -7,8 +7,15 @@ For better return paths of capacitively coupled signals to related ground on add
 
 "V2_M16_Composed" shows an older version-V2-prototype. Attended documents describe the "Final Version V4" as "V2.6_M38".
 
-For Pictures of real build of final version V4 it needs some time more, I have to build and test them first.-)
-
+Current developement:
+---------------------
+In the meantime I build up the Final version 4 as M38, but I found some more errors. See pictures.
+One error I found was, that some input pins on Teensy 4.0 have a lower input resistance as expencted, and that leads to the effect, that a pull-up resistor does not lift the resultig level over 2.1V, which is needed by the OR-gate to trigger the NE555 for power-on.
+The combination R126/R128 to provide 3.2V for pull-up SW_MODE_2 was substituted by R126=220Ohm and R128 by zener diode 3.0V. Additionalle the OR-gate was changed to a level shift variant for translation 3.3V to 5V signaling.
+An other effect causes an edge down on 5V power line during power-up Teensy4.0 that leeds to a RESET trigger by U48 (reset generator 5V). Therefore U48 and C1 were eliminated.
+Now it is working and I will provide an actualized description for the very very final Version as V2.9 M41 in the next time.
+ 
+---------------------
 This work is licensed under the Creatjve Commons Atuributjon-NonCommercial-ShareAlike 4.0 Internatjonal
 License. To view a copy of this license, visit htup://creatjvecommons.org/licenses/by-nc-sa/4.0/ or send a
 letuer to Creatjve Commons, PO Box 1866, Mountain View, CA 94042, USA.
