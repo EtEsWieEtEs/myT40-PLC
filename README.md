@@ -1,5 +1,5 @@
 # myT40-PLC  (SPS) based on Teensy 4.0
-Hardware for PLC based on Teensy 4.0, covering all my needs. I have to replace my 25 years old PS4-141-MM1 and PS4-341-MM1 from Klöcker Moeller, reusing the original case of the model PS4-141-MM1.
+Hardware for PLC based on Teensy 4.0, covering all my needs. I have to replace my 25 years old PS4-141-MM1 and PS4-341-MM1 from "Klöcker Moeller", reusing the original case of the model PS4-141-MM1.
 
 For better return paths of capacitively coupled signals to related ground on additional layers I created a 4-layers version for Upper PCB "OP". The lower PCB is designed as 2-layer board.
 
