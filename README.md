@@ -25,7 +25,7 @@ This license lets others remix, adapt, and build upon your work non-commercially
 and license their new creatjons under the identjcal terms.
 htup://creatjvecommons.org/licenses/by-nc-sa/4.0/
 
-  Title    myT40-PLC Documentatjon
+  Title    myT40-PLC Documentation
 
   Author   Clemens Niesen, Germany, 2023 + 2024
 
