@@ -34,6 +34,7 @@ htup://creatjvecommons.org/licenses/by-nc-sa/4.0/
   Licence  CC-BY-NC-SA
 
 DISCLAIMER
+----------
 
 I explicitly state that I make no representations or warranties regarding non-infringement or the absence of other defects with respect to the CC-licensed work.This means that users use the work at their own risk.
 
