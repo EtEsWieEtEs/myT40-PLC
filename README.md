@@ -9,7 +9,7 @@ Current developement:
 ---------------------
 In the meantime I build up the Final version 4 as M38, but I found some errors.
 One error I found was, that some input pins on Teensy 4.0 have a lower input resistance as expencted, and that leads to the effect, that a pull-up resistor does not lift the resultig level over 2.1V, which is needed by the OR-gate to trigger the NE555 for power-on.
-The combination R126/R128 to provide 3.2V for pull-up SW_MODE_2 was substituted by R126=220Ohm a direct connection to 3.3V from lower board.
+A combination R126/R128 to provide 3.2V for pull-up SW_MODE_2 was substituted by R126=220Ohm a direct connection to 3.3V from lower board to pul-up the signal.
 Additionally the OR-gate was changed to a level shift variant for translation 3.3V to 5V signaling.
 An other effect causes an voltage edge down on 5V power line during power-up Teensy4.0 that leeds to a RESET trigger by U48 (reset generator 5V). Therefore U48 and C1 were eliminated.
 Now it is working and I provide the actualized description for the very very final Version as V2.9 M41.
