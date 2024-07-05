@@ -13,9 +13,9 @@ A combination R126/R128 to provide 3.2V for pull-up SW_MODE_2 was substituted by
 Additionally the OR-gate was changed to a level shift variant for translation 3.3V to 5V signaling.
 An other effect causes an voltage edge down on 5V power line during power-up Teensy4.0 that leeds to a RESET trigger by U48 (reset generator 5V). Therefore U48 and C1 were eliminated.
 
-Now it is working and I provide the actualized description for the very very final Version as V2.9 M41.
+Now it is working and I provide the actualized description for the very very final version as V2.9 M41.
 
-There are some things to do, e.g. external Hardware watchdog or translation of documentation into English or Spanish. Perhaps in winter.
+There are some things to do, e.g. external hardware watchdog or translation of documentation into English or Spanish, perhaps in next winter.
 So feel free and be inspired.
 
 ---------------------
