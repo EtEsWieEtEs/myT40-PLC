@@ -1,8 +1,8 @@
 # Errata
 
-M38 published, 
-Version produced as V4
+M41 published, 
+Prototype Version-V4 M38 produced.
+Description for final version M41, containin all corrections necessary
 
-If V4 is build up and tested, further pictures and infos will become part of this documentation.
 
 
