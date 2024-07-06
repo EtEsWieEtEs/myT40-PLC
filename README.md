@@ -29,7 +29,7 @@ htup://creatjvecommons.org/licenses/by-nc-sa/4.0/
 
   Title    myT40-PLC Documentation
 
-  Author   Clemens Niesen, Germany, 2023 + 2024
+  Author   Clemens Niesen, Germany, 2024
 
   Source   These documents
 
