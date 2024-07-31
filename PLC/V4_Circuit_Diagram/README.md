@@ -108,3 +108,6 @@ C75 kann ebenfalls unverändert bleiben.
 			  -> C1, R128, R501, U48 (OP) entfallen
 			  -> U49 OR-Gatter mit LevelShift-Variante ersetzt (OP)
 			  -> J34 und J36 bringen 3,3V für PullUp an R126 für SW_MODE_2 (UP+OP)
+			
+Ausblick:
+			M42 Rev.V3.0 wird zusätzlich einen HW-Watchdog integrieren
