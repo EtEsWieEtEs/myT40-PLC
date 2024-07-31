@@ -1,4 +1,4 @@
-# myT40-PLC V2.6 M36 (V4)
+# myT40-PLC V2.9 M38 (Prototype-4)
 
 Errata:
 
