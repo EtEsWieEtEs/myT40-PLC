@@ -8,14 +8,17 @@ Attended documents describe the "Final Version V4" as "V2.9_M41", based on exper
 Current developement:
 ---------------------
 In the meantime I build up the Final version 4 as M38, but I found some errors.
-One error I found was, that some input pins on Teensy 4.0 have a lower input resistance as expencted, and that leads to the effect, that a pull-up resistor does not lift the resultig level over 2.1V, which is needed by the OR-gate to trigger the NE555 for power-on.
-A combination R126/R128 to provide 3.2V for pull-up SW_MODE_2 was substituted by R126=220Ohm a direct connection to 3.3V from lower board to pul-up the signal.
+One error I found was, that some input pins on Teensy 4.0 have a lower input resistance as expencted, and that leads to the effect, that a pull-up resistor does not lift the resultig level over 2.1V, which is needed by the OR-gate to trigger the NE555 for power-on the teensy.
+A combination R126/R128 to provide 3.2V for pull-up SW_MODE_2 was substituted by R126=220 Ohm a direct connection to 3.3V from lower board to pull-up the signal.
 Additionally the OR-gate was changed to a level shift variant for translation 3.3V to 5V signaling.
-An other effect causes an voltage edge down on 5V power line during power-up Teensy4.0 that leeds to a RESET trigger by U48 (reset generator 5V). Therefore U48 and C1 were eliminated.
+An other effect causes an voltage drop down on 5V power line during power-up Teensy4.0 that leeds to a RESET trigger by U48 (reset generator 5V). Therefore U48 and C1 are eliminated.
+Now it is working and I provide the actualized description for V2.9 M41.
 
-Now it is working and I provide the actualized description for the very very final version as V2.9 M41.
+But in the meanwhile I added a hardware watchdog based on TSP3431 in a VSON-8 package and I placed all bus signals on the first inner layer to free the place for.
+Now it is working and I provide the actualized description for the very very final version V3.0 M42 as prototyp-final-5.
+I have to think about some details and will publish this M42 later.
 
-There are some things to do, e.g. external hardware watchdog or translation of documentation into English or Spanish, perhaps in next winter.
+There are some things to do like translation of documentation into English or Spanish, perhaps in next winter.
 So feel free and be inspired.
 
 Licence
