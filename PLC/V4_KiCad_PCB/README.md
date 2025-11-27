@@ -1,6 +1,7 @@
 # Errata
 None
-M41 published
+M43 published
+PCB gesigned with KiCad 9.0.4
 
 - 2-Layer	PCB for UP (lower board)
 - 4-Layer	PCB for OP (upper board)
