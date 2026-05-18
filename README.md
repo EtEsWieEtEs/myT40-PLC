@@ -10,10 +10,14 @@ Motivation for a “Mighty 40”
 Since the late 1990s, I have been working with four used PS4-141s, one PS4-341, both controllers from Klöckner Moeller, and about two dozen 24V AC surge relays (unfortunately not DC), commonly known as “Eltako,” I planned and developed my “smart home” in the late ’90s and installed it in my new house in 2002. 
 The bus systems for building automation that were already on the market at the time were out of the question for me due to licensing issues and costs. 
 These control units are networked and seamlessly integrated into my sub-distribution panels—commonly known as “fuse boxes”—on a circuit breaker (C) rail installed at the rear, just like standard circuit breakers. Circuit protection, power, and control are clearly separated in accordance with VDE standards.
+
 Using serial communication, the master controller can be configured during operation using a user-friendly VB program (timer functions, lighting, roller shutters, light level detection, assignment of switches to power outlets such as wall sockets or ceiling outlets for lamps, etc.).
+
 Since these controllers or similar devices are no longer manufactured in this format, the first failures occurred after nearly 30 years of trouble-free operation, and no other manufacturer offers affordable controllers with galvanic isolation(!) in this format anymore, I decided to strip down the PS4-141 housings and develop a new circuit that handles the most important functions and fits into these very housings I have on hand, hereinafter referred to as the “original housing.”
 
-This is not intended to be a replica of the original, nor is that the goal. Externally, the case has been noticeably modified and fitted with different connectors: the “myT40-PLC”.
+The result is "myT40-PLC", a combination of extention slot of PS4-341 in the housing of an P4S-141.
+
+It is not intended to create a replica of the original, nor is that the goal. Externally, the case has been noticeably modified and fitted with different connectors: the “myT40-PLC”.
 Since the circuit itself might also be of interest to others, I designed the main board in two versions for J3: one with an FFC connector, the “FFC” version, for my personal replacement in the original case, and a standard version with a pin header, the “PFS” version, to inspire replicas in any case. The latter is presented here.
 
 This pin header connector "PFS" version offers a 2x DAC option and a 2x ADC option, while allowing the use of all 32 digital I/O channels and providing Sub-D connectors for bus systems in a separate housing. This distinguishes it from the FFC version, which cannot optionally provide all outputs when the DAC and ADC are installed and connected.
