@@ -18,6 +18,7 @@ Since these controllers or similar devices are no longer manufactured in this fo
 The result is "myT40-PLC", a combination of extention slot of PS4-341 in the housing of an P4S-141.
 
 It is not intended to create a replica of the original, nor is that the goal. Externally, the case has been noticeably modified and fitted with different connectors: the “myT40-PLC”.
+
 Since the circuit itself might also be of interest to others, I designed the main board in two versions for J3: one with an FFC connector, the “FFC” version, for my personal replacement in the original case, and a standard version with a pin header, the “PFS” version, to inspire replicas in any case. The latter is presented here.
 
 This pin header connector "PFS" version offers a 2x DAC option and a 2x ADC option, while allowing the use of all 32 digital I/O channels and providing Sub-D connectors for bus systems in a separate housing. This distinguishes it from the FFC version, which cannot optionally provide all outputs when the DAC and ADC are installed and connected.
