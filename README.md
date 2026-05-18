@@ -2,6 +2,7 @@
 Hardware for PLC based on Teensy 4.0, covering all my needs. I have to replace my 30 years old PS4-141-MM1 and PS4-341-MM1 from "Klöcker Moeller", reusing the original case of the model PS4-141-MM1.
 
 <img src="myT40-PLC_V3.jpg" style="display: block; margin: auto;" />
+Picture: Prototype V2
 
 
 Motivation for a “Mighty 40”
