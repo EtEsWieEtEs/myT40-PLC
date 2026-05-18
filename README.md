@@ -73,21 +73,13 @@ The new controller should
 
 Current developement
 ---------------------
-For better return paths of capacitively coupled signals to related ground on additional layers I created a 4-layers version for Upper PCB "OP". The lower PCB is designed as 2-layer board.
-In January 2024 I build up the last prototype version V4 as M38, but I found some errors and correct them.
-One error I found was, that some input pins on Teensy 4.0 have a lower input resistance as expencted, and that leads to the effect, that a pull-up resistor does not lift the resultig level over 2.1V, which is needed by the OR-gate to trigger the NE555 for power-on the teensy.
-A combination R126/R128 to provide 3.2V for pull-up SW_MODE_2 was substituted by R126=220 Ohm a direct connection to 3.3V from lower board to pull-up the signal.
-Additionally the OR-gate was changed to a level shift variant for translation 3.3V to 5V signaling.
-An other effect causes an voltage drop down on 5V power line during power-up Teensy4.0 that leeds to a RESET trigger by U48 (reset generator 5V). Therefore U48 and C1 are eliminated.
-
-But in the meanwhile I added a hardware watchdog based on TSP3431 in a VSON-8 package and I placed all bus signals on the first inner layer to free the place for.
-I added as well a delay for the external watchdog and flipped CAN1 with CAN2 at the connectors to make optionally OTA possible.
-Now it is working and I provide the actualized description for the very very final version V3.2 M43 as prototyp-final V5.
-Here now are the details for V5.
+Now that the Prototype 4 (V4) is working successfully with a 4-layer PCB, I have added an external watchdog and a delay to Version 5.
+It offers optionally the use of OTA via one of the two serial interfaces instead of a second CAN bus.
+However, Version 5 has not yet been built or tested. That is planned for the coming months.
 
 There are some things to do like translation of documentation into English or Spanish, perhaps in next winter.
-The current documentation is in German. So please be pacient.
-So feel free and be inspired.
+The current documentation is in German. 
+So please be pacient, feel free and be inspired.
 
 (Text partially translated with deepl.com)
 
