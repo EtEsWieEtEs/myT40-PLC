@@ -16,9 +16,9 @@ Since these controllers or similar devices are no longer manufactured in this fo
 This is not intended to be a replica of the original, nor is that the goal. Externally, the case has been noticeably modified and fitted with different connectors: the “myT40-PLC”.
 Since the circuit itself might also be of interest to others, I designed the main board in two versions for J3: one with an FFC connector, the “FFC” version, for my personal replacement in the original case, and a standard version with a pin header, the “PFS” version, to inspire replicas in any case. The latter is presented here.
 
-This “post connector” PFS version offers a 2x DAC option and a 2x ADC option, while allowing the use of all 32 digital I/O channels and providing Sub-D connectors for bus systems in a separate housing. This distinguishes it from the FFC version, which cannot optionally provide all outputs when the DAC and ADC are installed and connected.
+This pin header connector "PFS" version offers a 2x DAC option and a 2x ADC option, while allowing the use of all 32 digital I/O channels and providing Sub-D connectors for bus systems in a separate housing. This distinguishes it from the FFC version, which cannot optionally provide all outputs when the DAC and ADC are installed and connected.
 
-A parallel project, myT40C, focuses on a controller unit that provides a graphical interface, Ethernet, CAN and RS485 buses, as well as a serial OTA interface, and allows the myT40 PLC to be controlled, logged, and configured.
+A parallel project, myT41-Controller, focuses on a controller unit that provides a graphical interface, Ethernet, CAN and RS485 buses, as well as a serial OTA interface, and allows the myT40 PLC to be controlled, logged, and configured.
 With appropriate programming, the myT41C controller can also be used as a protocol converter or logger on the interfaces for entirely different projects.
 
 The software will be documented separately at a later date.
