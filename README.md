@@ -31,6 +31,7 @@ myT40-PLC      Requirements for my new PLC
 ------------------------------------------
 Even though the new circuit cannot meet all the requirements of the original, I still have a clear idea of what it will be capable of.
 The new controller should
+
     1. be installed in my existing original enclosures or any other enclosures,
 	
     2. be networked so it can communicate with other devices,
