@@ -31,38 +31,38 @@ myT40-PLC      Requirements for my new PLC
 ------------------------------------------
 Even though the new circuit cannot meet all the requirements of the original, I still have a clear idea of what it will be capable of.
 The new controller should
-    1) be installed in my existing original enclosures or any other enclosures,
-    2) be networked so it can communicate with other devices,
-    3) ensure isolated potentials for inputs, load circuits, bus systems, ADC/DAC, and controllers; therefore, commercially available Arduino- or Raspberry Pi-based PLCs are out of the question,
-    4) provide 16 digital inputs and 16 digital outputs as needed, with isolated potentials,
-    5) support interrupts for input bytes,
-    6) Provide 4 analog-to-digital converter inputs if required, two of these are fed via built-in setpoint potentiometers,
-    7) Provide 2 digital-to-analog converter outputs if required,
-    8) Process analog signals from 0..10V, ADC and DAC, with their own reference potential,
-    9) Support up to two CAN buses, galvanically isolated, optionally GND, PE shield via capacitor,
-    10) Provide an RS485 interface for 16 clients, galvanically isolated, bus termination with low-drop diodes or optionally classically with switchable terminating resistor 720/120/720 ,
-    11) RS485 connection corresponds to the original (V5); the DIN sockets combine CAN1/2 and RS485,
-    12) be based on a modern, fast processor with sufficient RAM,
-    13) be supported by an EEPROM/Flash memory,
-    14) have ICs mounted on sockets wherever possible,
-    15) support a mode selector switch with 3 modes, including a setting for a cold start via RESET,
-    16) be able to use the existing RESET button,
-    17) be able to trigger a RESET via software, including a choice between cold or warm start,
-    18) ensure local communication via SPI for the interface and function modules,
-    19) be energy-efficient and operate at 3.3V,
-    20) be programmed in C or C++,
-    21) allow communication with a PC or a control unit via CAN, RS485, Ethernet,
-    22) enable flexible programming,
-    23) feature a pluggable, wired 3.6V backup lithium battery with its own ADC monitoring,
-    24) Respond to the 24V AC “Eltako” devices present in the building’s electrical system with 5ms DC pulses (!),
-    25) Monitor the supply voltages of the CPU and the direct interfaces and, if necessary, perform a warm start or cold start with a reset,     
-    26) Control the onboard hardware watchdog and/or software watchdog in combination with the operating mode switch, or allow them to function independently.
-    27) Does not support flexible docking of various original expansion modules; however, a suitable connection panel for SPI and digital I/O is available, though it is incompatible with original expansion modules. Instead, equip the existing 16-channel digital output unit with a new “header board” to make it usable.
-    28) No online programming or programming via network, although this might actually be possible.
-    29) No PWM support on the outputs or counter features on the inputs.
-    30) External hardware watchdog with adjustable times, including a definable delay on RESET and restart (V5),
-    31) Buttons for Teensy 4.0 boot/program and on/off (V5),
-    32) OTA option (V5).
+    1. be installed in my existing original enclosures or any other enclosures,
+    2. be networked so it can communicate with other devices,
+    3. ensure isolated potentials for inputs, load circuits, bus systems, ADC/DAC, and controllers; therefore, commercially available Arduino- or Raspberry Pi-based PLCs are out of the question,
+    4. provide 16 digital inputs and 16 digital outputs as needed, with isolated potentials,
+    5. support interrupts for input bytes,
+    6. Provide 4 analog-to-digital converter inputs if required, two of these are fed via built-in setpoint potentiometers,
+    7. Provide 2 digital-to-analog converter outputs if required,
+    8. Process analog signals from 0..10V, ADC and DAC, with their own reference potential,
+    9. Support up to two CAN buses, galvanically isolated, optionally GND, PE shield via capacitor,
+    10. Provide an RS485 interface for 16 clients, galvanically isolated, bus termination with low-drop diodes or optionally classically with switchable terminating resistor 720/120/720 ,
+    11. RS485 connection corresponds to the original (V5); the DIN sockets combine CAN1/2 and RS485,
+    12. be based on a modern, fast processor with sufficient RAM,
+    13. be supported by an EEPROM/Flash memory,
+    14. have ICs mounted on sockets wherever possible,
+    15. support a mode selector switch with 3 modes, including a setting for a cold start via RESET,
+    16. be able to use the existing RESET button,
+    17. be able to trigger a RESET via software, including a choice between cold or warm start,
+    18. ensure local communication via SPI for the interface and function modules,
+    19. be energy-efficient and operate at 3.3V,
+    20. be programmed in C or C++,
+    21. allow communication with a PC or a control unit via CAN, RS485, Ethernet,
+    22. enable flexible programming,
+    23. feature a pluggable, wired 3.6V backup lithium battery with its own ADC monitoring,
+    24. Respond to the 24V AC “Eltako” devices present in the building’s electrical system with 5ms DC pulses (!),
+    25. Monitor the supply voltages of the CPU and the direct interfaces and, if necessary, perform a warm start or cold start with a reset,     
+    26. Control the onboard hardware watchdog and/or software watchdog in combination with the operating mode switch, or allow them to function independently.
+    27. Does not support flexible docking of various original expansion modules; however, a suitable connection panel for SPI and digital I/O is available, though it is incompatible with original expansion modules. Instead, equip the existing 16-channel digital output unit with a new “header board” to make it usable.
+    28. No online programming or programming via network, although this might actually be possible.
+    29. No PWM support on the outputs or counter features on the inputs.
+    30. External hardware watchdog with adjustable times, including a definable delay on RESET and restart (V5),
+    31. Buttons for Teensy 4.0 boot/program and on/off (V5),
+    32. OTA option (V5).
 	
 
 Current developement
