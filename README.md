@@ -83,7 +83,7 @@ There are some things to do like translation of documentation into English or Sp
 The current documentation is in German. So please be pacient.
 So feel free and be inspired.
 
-
+(Text partially translated with deepl.com)
 
 
 Licence
