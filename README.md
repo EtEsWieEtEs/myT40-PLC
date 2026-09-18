@@ -1,4 +1,4 @@
-# myT40-PLC  (SPS) based on Teensy 4.0
+# myT40-PLC  (SPS) based on Teensy 4.0 (Version-5)
 Hardware for PLC based on Teensy 4.0, covering all my needs. I have to replace my 30 years old PS4-141-MM1 from "Klöcker Moeller", reusing the original case of this model PS4-141-MM1.
 
 <img src="myT40-PLC_V3.jpg" style="display: block; margin: auto;" />
