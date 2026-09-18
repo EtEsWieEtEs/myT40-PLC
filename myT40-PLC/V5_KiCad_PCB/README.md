@@ -1,4 +1,4 @@
-KiCad 9.0.4
+KiCad 9.0.7
 
-Version-5
-V3.2 M43 PFS
+myT40-PLC Rev3.3 M44 V5 PFS
+
