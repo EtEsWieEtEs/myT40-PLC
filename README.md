@@ -79,9 +79,11 @@ The new controller should
 
 Current developement
 ---------------------
+<img src="myT40-PLC/Prototype_V4/myT40-PLC_M40_composed.png" style="display: block; margin: auto;" />
+Picture: Prototype V4
 Now that the Prototype 4 (V4) is working successfully with a 4-layer PCB, I have added an external watchdog and a delay to Version 5.
-It offers optionally the use of OTA via one of the two serial interfaces instead of a second CAN bus.
-And I think F-RAM is a good alternative for often changed written data to be stored permantly. So V5 provides a place for SOIC-8 alterntive to EEPROM in DIL-8.
+V5 offers optionally the use of OTA via one of the two serial interfaces instead of a second CAN bus.
+Furthermore I think F-RAM is a good alternative for often changed written data to be stored permantly. So V5 provides a place for SOIC-8 alterntive to EEPROM in DIL-8.
 However, Version 5 has not yet been built or tested. That is planned for the coming months.
 
 There are some things to do like translation of documentation into English or Spanish, perhaps in next winter.
