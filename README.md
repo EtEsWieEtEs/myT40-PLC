@@ -30,7 +30,7 @@ The software will be documented separately at a later date.
 This document describes only the hardware-related port definitions that result from the circuit and are essential for programming.
 
 
-Attended documents describe the "Final Version V5" as "V3.2 M43", based on experience of 4 prototypes build up in the past 5 years.
+Attended documents describe the "Final Version V5" as "V3.3 M44", based on experience of 4 prototypes build up in the past 5 years.
 
 The current Version is the final one waiting to be build-up: V5.
 I made a lot of changes and enhancements and transfered these features as well to the myT41-Controller.
@@ -73,6 +73,7 @@ The new controller should
 30. External hardware watchdog with adjustable times, including a definable delay on RESET and restart (V5),
 31. Buttons for Teensy 4.0 boot/program and on/off (V5),
 32. OTA option (V5).
+33. F-RAM SPI Option based on SOIC-8
 	
 	
 
@@ -80,6 +81,7 @@ Current developement
 ---------------------
 Now that the Prototype 4 (V4) is working successfully with a 4-layer PCB, I have added an external watchdog and a delay to Version 5.
 It offers optionally the use of OTA via one of the two serial interfaces instead of a second CAN bus.
+And I think F-RAM is a good alternative for often changed written data to be stored permantly. So V5 provides a place for SOIC-8 alterntive to EEPROM in DIL-8.
 However, Version 5 has not yet been built or tested. That is planned for the coming months.
 
 There are some things to do like translation of documentation into English or Spanish, perhaps in next winter.
